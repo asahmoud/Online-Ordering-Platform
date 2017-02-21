@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Ordeing Platform</title>
+	<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+	<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+	<script src="Main Page JQuery.js"></script>
+	<style>
+		.boxed {
+  			border: 1px solid green ;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<h1>Online Ordering Platform</h1>
+		<a target="_blank" title="link to menu" href="file:///C:/Users/ali_s/Downloads/Catering-Menu-Decreased-Nov-2016.pdf"><img src="http://angelapizzeriaandrestaurant.com/wp-content/uploads/2015/01/menuicon.png"> </a>
+		<div id="name" class="boxed">
+			<br>Order 1</br>Name of Customer</br>
+			<input id="nameinput" type="text" required="true">
+			<button id="namenext" type="button">Next</button>
+		</div>
+		<div id="item" class="boxed">
+			<br>Order 1</br>What would he/she like to have?</br>
+			<button id="itemback" type="button">Back</button>
+			<input id="iteminput" type="text">
+			<button id="itemnext" type="button">Next</button>
+		</div>
+		<div id="toppings" class="boxed">
+			<br>Order 1</br>Extra toppings?</br>
+			<button id="toppingsback" type="button">Back</button>
+			<label><input name="toppings" type="checkbox" value="onions">Onions</label>
+			<label><input name="toppings" type="checkbox" value="pickles">Pickles</label>
+			<label><input name="toppings" type="checkbox" value="ketchup">Ketchup</label>
+			<label><input name="toppings" type="checkbox" value="doritos">Doritos</label>
+			<label><input name="toppings" type="checkbox" value="peppers">Peppers</label>
+			<button id="toppingsnext" type="button">Next</button>
+		</div>	
+		<div id="nos" class="boxed">
+		<br>Order 1</br>Any Nos?</br>
+			<button id="nosback" type="button">Back</button>
+			<label><input name="nos" type="checkbox" value="onions">Onions</label>
+			<label><input name="nos" type="checkbox" value="pickles">Pickles</label>
+			<label><input name="nos" type="checkbox" value="ketchup">Ketchup</label>
+			<label><input name="nos" type="checkbox" value="doritos">Doritos</label>
+			<label><input name="nos" type="checkbox" value="peppers">Peppers</label>
+			<button id="nosnext" type="button">Next</button>
+		</div>		
+		<div id="replacements" class="boxed">
+			<br>Order 1</br>Replacements?</br>
+			<button id="replacementsback" type="button">Back</button>
+			<label><input name="replacements" type="radio" value="fries to salad">Fries to Salad</label>
+			<label><input name="replacements" type="radio" value="fries to curlies">Fries to Curly Fries</label>
+			<label><input name="replacements" type="radio" value="fries to onion rings">Fries to Onion Rings</label>
+			<button id="replacementsfinish" type="button">Finish</button>
+			<button id="newitem" type="button">New Item</button>
+			<button id="newcustomer" type="button">New Customer</button>
+		</div>	
+		<div id="finished">Thank you for your order, relax your food is being cooked now</div>	
+		<div id="ordersummary"><button id="orderbutton" type="button">Summary </button> </div>
+	</center>
+</body>
+</html>
